@@ -1,7 +1,5 @@
 # Stock & Crypto App
 
-## Author: Edgaras Puškorius
-
 ### Description
 
 Welcome to the Stock & Crypto App! This versatile application is your gateway to tracking stocks and cryptocurrencies,
