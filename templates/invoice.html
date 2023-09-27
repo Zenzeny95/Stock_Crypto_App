@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stock & Crypto App Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .invoice {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            background-color: #f5f5f5;
+            padding: 10px;
+        }
+        .invoice-details {
+            margin-top: 20px;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .item-name {
+            flex: 1;
+        }
+        .item-amount {
+            flex: 0;
+        }
+        .total {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice">
+        <div class="header">
+            <h1>Stock & Crypto App</h1>
+            <p>Invoice</p>
+        </div>
+        <div class="invoice-details">
+            <p><strong>Invoice Date:</strong> $today</p>
+            <p><strong>Invoice Number:</strong> $uuid</p>
+        </div>
+        <div class="items">
+            <div class="item">
+                <div class="item-name">Premium Subscription - 1 Month</div>
+            </div>
+        </div>
+        <div class="total">
+            <p><strong>Total Amount:</strong> €4.99</p>
+        </div>
+        <div class="footer">
+            <p>Thank you for using Stock & Crypto App!</p>
+        </div>
+    </div>
+</body>
+</html>
