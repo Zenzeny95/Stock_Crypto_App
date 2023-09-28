@@ -97,6 +97,8 @@ Stay informed about market opening and closing hours for both stocks and cryptoc
 
 - Make sure to use your own Email Config Data in emailo_config.py file for full functionality.
 
+- To access Admin meniu the default username and password is 'admin'.
+
 - Make sure to keep your account credentials secure to protect your financial information.
 
 - Stay informed about market trends and news to make informed investment decisions.
